@@ -5,7 +5,7 @@ import { CardsContainer } from './components/CardsContainer';
 
 export const App = () => {
   return (
-    <div>
+    <div className=" overflow-x-hidden">
       <Header />
       <Score />
       <CardsContainer />
