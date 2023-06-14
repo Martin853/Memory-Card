@@ -11,7 +11,12 @@ export const App = () => {
     <div className=" overflow-x-hidden">
       <Header />
       <Score score={score} highscore={highscore} />
-      <CardsContainer />
+      <CardsContainer
+        setScore={setScore}
+        score={score}
+        setHighscore={setHighscore}
+        highscore={highscore}
+      />
     </div>
   );
 };
